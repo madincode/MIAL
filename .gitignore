@@ -1,1 +1,4 @@
 .DS_Store
+Dockerfile/*
+Test_outputs/*
+Train_outputs/*
