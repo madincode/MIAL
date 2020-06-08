@@ -1,5 +1,5 @@
 # Team 1
-# Evaluate the trained model on save the output images
+# Evaluate the trained model and save the output images
 # 10% of train subjects
 
 import torch as th
