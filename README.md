@@ -4,7 +4,7 @@
 
 `produceDataPath**.py`
 
-- saves a text-file with data paths, in subject-level
+Saves a text-file with data paths, in subject-level
 
 ## Training file:
 
