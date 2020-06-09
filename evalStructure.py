@@ -30,14 +30,14 @@ def main():
     modelname = model + str(best)
     #####################################
 
-    model_path = 'CodeStructure/Train_outputs/'+model+'/'+modelname+'.pt'
+    model_path = 'MIAL/Train_outputs/'+model+'/'+modelname+'.pt'
 
-    test_data_path = 'CodeStructure/Train_outputs/'+model+'/'+model+'test_data.txt'
+    test_data_path = 'MIAL/Train_outputs/'+model+'/'+model+'test_data.txt'
     if online:
         test_data_path = 'data_mialab/data_online.txt'  # for the online evaluation dataset
 
     # Create a path to save outputs
-    goal_path = 'CodeStructure/Test_outputs/' + modelname + '/' + save
+    goal_path = 'MIAL/Test_outputs/' + modelname + '/' + save
     if not os.path.exists(goal_path):
         os.makedirs(goal_path)
     print('Results are saved in: ', goal_path)
