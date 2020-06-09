@@ -2,9 +2,13 @@
 
 ## Reading file:
 
-`produceDataPath**.py`
+`produceDataPathTrain.py`
 
-Saves a text-file with data paths, in subject-level
+Saves a text-file with data paths, in subject-level. Boolean info if a subject is a patient.
+
+`produceDataPathOnlineTest.py`
+
+Saves a text-file with Evaluation data paths, in slice-level
 
 ## Training file:
 
