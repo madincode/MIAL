@@ -247,7 +247,7 @@ def main():
     model = ResNetUNet(num_class).to(device)
     modelname = dateToday + modelname + str(epochs) + 'e'
     print('Model name:', modelname)
-    path = 'CodeStructure/Train_outputs/'+modelname+'/'
+    path = 'MIAL/Train_outputs/'+modelname+'/'
 
     # Create a path to save outputs
     if not os.path.exists(path):
