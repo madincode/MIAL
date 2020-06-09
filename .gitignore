@@ -2,3 +2,6 @@
 Dockerfile/*
 Test_outputs/*
 Train_outputs/*
+._*
+__pycache__
+.fuse*
